@@ -1,0 +1,266 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Kaushan Script', cursive;
+	font-family: 'Roboto', sans-serif;
+}
+.hero {
+	background-image: url(./images/header-background.png);
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.logo {
+	color: white;
+	font-weight: bolder;
+}
+.header-top {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 14px;
+	padding-right: 200px;
+	padding-left: 100px;
+	background-color: black;
+
+}
+.primary-menu {
+	
+	display: flex;
+
+
+}
+.menu {
+	justify-content: space-between;
+	list-style-type: none;
+	padding-right: 20px;
+	font-weight: bolder;
+	padding-bottom:5px;
+}
+.menu-a {
+	color: white;
+	text-decoration: none;
+}
+.menu-a:hover {
+	text-decoration: underline;
+	text-decoration-color: yellow; 
+}
+.hero-text {
+	color: white;
+	padding-top: 400px;
+	padding-left: 335px;
+	
+	
+}
+.hero-text > div > h1 {
+	line-height: 20px;
+}
+.hero-text span {
+	font-size: 20px
+}
+.yellow-bg {
+	background-color: yellow;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	padding: 10px;
+}
+.text-two {
+	padding-top:20px;
+}
+/*body starts here*/
+/*first section starts here*/
+.first-section {
+	display: flex;
+	width:100%;
+	padding:40px;
+	background-color: #E6E6E6;
+
+
+	
+}
+.about-image {
+	width: 400px;
+	height: 400px;
+	
+}
+
+.section-two {
+	margin-top: 90px;
+	padding-left: 50px;
+	
+}
+.section-two p {
+	margin-top: 20px;
+}
+.section-two > h2 {
+	text-shadow: 7px 10px 15px black;
+}
+.section-one {
+	padding-left: 200px;
+}
+.contact-container {
+	display: flex;
+	margin-top: 100px;
+	margin-left: 200px;
+	margin-right: 300px;
+	justify-content: space-between;
+}
+.contact-container p {
+	margin-top:20px;
+	text-align: justify;
+}
+.contact-button {
+	margin-top: 30px;
+}
+.contact-button a {
+	text-decoration: none;
+	color: black;
+	background-color: yellow;
+	padding: 10px; 
+	font-weight: bolder;
+}
+.progress-container {
+	background-color: #f0f0f0;
+	width: 300px;
+	border-radius: 5px;
+}
+.progress-bar {
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+	margin: 30px;
+	height: 40px;
+	border-radius: 5px;
+}
+.progress-bar div, span {
+	padding: 10px;
+	font-weight: bolder;
+}
+.progress-bar span {
+	color: white;
+}
+.percentage {
+	background-color: white;
+	color: black;
+}
+.service-area {
+	margin: 100px;
+}
+
+.service-heading {
+	padding-left: 500px;
+	
+}
+.service-heading h2 {
+	padding-left: 17px;
+	text-shadow: 7px 10px 25px black; 
+}
+.service-heading p{
+	font-weight: bolder;
+}
+.services {
+	display: flex;
+	
+}
+.services div {
+	box-shadow: 20px yellow;
+	margin-top:50px;
+	padding: 40px;
+	box-shadow: 5px 5px 5px 5px #F7F7F8;
+}
+.services p {
+	text-align: justify;
+	padding-top: 10px;
+}
+
+.img-group {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 14px;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+.work-image {
+	width: 340px;
+	height: 250px;
+}
+.third-section {
+	margin: 60px;
+	background-color: #f0f0f0;
+}
+
+.my-works {
+	padding-top: 50px;
+	padding-left: 600px;
+	font-size: 50px;
+
+}
+.awesome-projects {
+	padding-left: 650px;
+	font-size: 30px;
+	text-shadow:7px 10px 25px black;
+}
+
+.update-body {
+	margin: 100px;
+	height: 100px;
+	padding-left: 500px;
+	padding-top: 15px;
+} 
+.update p {
+	font-weight: bolder;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+label {
+	font-weight: bolder;
+}
+input[type="submit"] {
+	padding: 5px;
+	background-color:#f0f0f0;
+	color: black;
+	font-weight: bolder;
+	border: none;
+}
+input[type="submit"]:hover {
+	background-color: blue;
+}
+
+.footer {
+	background-color: black;
+	height: 25vh;
+
+}
+.footer a {
+	background-color: yellow;
+	padding: 4px;
+	text-decoration: none;
+	font-weight: bolder;
+	color: black
+}
+.title5 {
+	padding-left: 600px;
+	padding-top: 20px;
+}
+.title5  h2 {
+	color: white;
+}
+.info {
+	display: flex;
+}
+.info div {
+	color: white;
+	justify-content: space-between;
+	padding-left: 230px;
+	padding-top: 50px;
+}
+
+
+
